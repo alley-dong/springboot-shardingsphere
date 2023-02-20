@@ -1,0 +1,8 @@
+# Project exclude paths
+/shardingjdbc-encryption/target/
+/shardingjdbc-hint/target/
+/shardingjdbc-table/target/
+/shardingjdbc-transaction/target/
+/shardingjdbc-write-read/target/
+/shardingproxy-demo/target/
+/shardingsphere-spi/target/

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="sharding-proxy-test" />
+        <module name="shardingjdbc-write-read" />
+        <module name="shardingjdbc" />
+        <module name="shardingjdbc-encryption" />
+        <module name="shardingjdbc-hint" />
+        <module name="shardingjdbc-table" />
+        <module name="shardingsphere-spi" />
+        <module name="shardingjdbc-transaction" />
+        <module name="shardingproxy-demo" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="sharding-proxy-test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="shardingjdbc-encryption" options="-parameters" />
+      <module name="shardingjdbc-hint" options="-parameters" />
+      <module name="shardingjdbc-transaction" options="-parameters" />
+      <module name="shardingsphere-spi" options="" />
+    </option>
+  </component>
+</project>
